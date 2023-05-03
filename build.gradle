@@ -37,6 +37,8 @@ test {
             "junit.jupiter.execution.parallel.config.strategy"         : "fixed",
             "junit.jupiter.execution.parallel.config.fixed.parallelism": "2"
     ]
+
+//    parameters too log rest-assured when response code validation failed
     testLogging {
         events "passed", "skipped", "failed", "standardOut", "standardError"
     }
